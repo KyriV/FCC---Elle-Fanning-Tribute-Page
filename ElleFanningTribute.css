@@ -18,7 +18,7 @@ body {
 }
 
 .background {
-	height: 100vh;
+	min-height: 100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -87,22 +87,10 @@ body {
  	height: 574px;
  }
 
- /*.otherWorks {
- 	background-color: #000000;
- 	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	height: 715px;
-	width: 1300px;
-	margin: 15% 10% 15% 10%;
- }*/
-
  .portfolio {
  	width: 100%;
  	height: 100%;
  	background-color: #FFFFFF;
-
  }
 
  .portfoliocontainer {
@@ -123,7 +111,46 @@ body {
  	margin: 3% 3%;
  }
 
+ .caseStudies {
+ 	background-color: white;
+ 	margin: 10% 0% 10% 0%;
+ 	height: 80%;
+ 	
+ }
+
+ .caseStudiestitle {
+ 	padding: 3%;
+ 	margin: 0%;
+ }
+
+ .caseStudyimages {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+
+ figure {
+ 	width: 200px;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 80%;
+ }
+
+ figure img  {
+	padding: 0%;
+ }
+
+ .footer {
+ 	background-color: #B0EACB;
+ 	height: 100px;
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 300;
+ }
+
  
+
 
 
 
